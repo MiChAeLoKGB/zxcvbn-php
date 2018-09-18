@@ -18,7 +18,7 @@ class MatcherTest extends TestCase
         $this->assertSame('repeat', $matches[0]->pattern, 'Pattern incorrect');
         $this->assertCount(1, $matches);
 
-        $matches = $matcher->getMatches('jjjjj');
+        $matches = $matcher->getMatches('jjjjjjjjjjjj');
         $this->assertSame('repeat', $matches[0]->pattern, 'Pattern incorrect');
     }
 
