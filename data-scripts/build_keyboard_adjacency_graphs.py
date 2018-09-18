@@ -17,6 +17,13 @@ qwerty = r'''
       zZ xX cC vV bB nN mM ,< .> /?
 '''
 
+qwertz = ur'''
+;° +1 ě2 š3 č4 ř5 ž6 ý7 á8 í9 é0 =% ´ˇ
+    qQ wW eE rR tT zZ uU iI oO pP ú/ )( ¨'
+     aA sS dD fF gG hH jJ kK lL ů" §!
+      yY xX cC vV bB nN mM ,? .: -_
+'''
+
 dvorak = r'''
 `~ 1! 2@ 3# 4$ 5% 6^ 7& 8* 9( 0) [{ ]}
     '" ,< .> pP yY fF gG cC rR lL /? =+ \|
@@ -96,6 +103,7 @@ if __name__ == '__main__':
     with open(sys.argv[1], 'w') as f:
         data = {
             'qwerty':     build_graph(qwerty, True),
+            'qwertz':     build_graph(qwertz, True),
             'dvorak':     build_graph(dvorak, True),
             'keypad':     build_graph(keypad, False),
             'mac_keypad': build_graph(mac_keypad, False),
