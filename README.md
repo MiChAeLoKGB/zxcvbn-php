@@ -2,7 +2,7 @@ Zxcvbn-PHP is a password strength estimator using pattern matching and minimum e
 
 >zxcvbn attempts to give sound password advice through pattern matching and conservative entropy calculations. It finds 10k common passwords, common American names and surnames, common English words, and common patterns like dates, repeats (aaa), sequences (abcd), and QWERTY patterns.
 
-[![Build Status](https://travis-ci.org/mkopinsky/zxcvbn-php.png?branch=master)](https://travis-ci.org/mkopinsky/zxcvbn-php)
+[![Build Status](https://travis-ci.org/MiChAeLoKGB/zxcvbn-php.png?branch=master)](https://travis-ci.org/MiChAeLoKGB/zxcvbn-php)
 [![Coverage Status](https://coveralls.io/repos/github/mkopinsky/zxcvbn-php/badge.svg?branch=master)](https://coveralls.io/github/mkopinsky/zxcvbn-php?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/mkopinsky/zxcvbn-php/v/stable)](https://packagist.org/packages/mkopinsky/zxcvbn-php)
 [![License](https://poser.pugx.org/mkopinsky/zxcvbn-php/license)](https://packagist.org/packages/mkopinsky/zxcvbn-php)
