@@ -157,7 +157,7 @@ class DictionaryTest extends AbstractMatchTest
             [[0, 2]],
             [
                 'matchedWord' => $patterns,
-                'rank' => [322],
+                'rank' => [317],
                 'dictionaryName' => ['us_tv_and_film'],
             ]
         );
@@ -209,10 +209,10 @@ class DictionaryTest extends AbstractMatchTest
             "matches words in multiple dictionaries",
             DictionaryMatch::match($password),
             'dictionary',
-            ['pass', 'as', 'ass'],
-            [[0, 3], [1, 2], [1, 3]],
+            ['pass', 'a', 'as', 'ass'],
+            [[0, 3], [1, 1], [1, 2], [1, 3]],
             [
-                'dictionaryName' => ['passwords', 'english_wikipedia', 'us_tv_and_film']
+                'dictionaryName' => ['passwords', 'cs_tv_film_no_dia', 'english_wikipedia', 'us_tv_and_film']
             ]
         );
     }

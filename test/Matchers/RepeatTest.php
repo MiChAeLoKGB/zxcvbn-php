@@ -241,11 +241,11 @@ class RepeatTest extends AbstractMatchTest
     public function guessesProvider()
     {
         return array(
-            [ 'aa',   'a',  2,  24],
+            [ 'aa',   'a',  2,  6],
             [ '999',  '9',  3,  36],
             [ '$$$$', '$',  4,  48],
             [ 'abab', 'ab', 2,  18],
-            [ 'batterystaplebatterystaplebatterystaple', 'batterystaple', 3,  85277994]
+            [ 'batterystaplebatterystaplebatterystaple', 'batterystaple', 3,  83415972]
         );
     }
 
