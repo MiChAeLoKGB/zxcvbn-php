@@ -46,29 +46,29 @@ class MatcherTest extends TestCase
             ['dictionary', [ 8,  8]],
             ['dictionary', [ 8, 10]],
             ['sequence',   [11, 12]],
-	        ['dictionary', [11, 15]],
-	        ['dictionary', [13, 14]],
-	        ['dictionary', [15, 16]],
-	        ['repeat',     [16, 17]],
-	        ['date',       [16, 23]],
-	        ['sequence',   [20, 21]],
-	        ['dictionary', [24, 24]],
-	        ['dictionary', [24, 27]],
+            ['dictionary', [11, 15]],
+            ['dictionary', [13, 14]],
+            ['dictionary', [15, 16]],
+            ['repeat',     [16, 17]],
+            ['date',       [16, 23]],
+            ['sequence',   [20, 21]],
+            ['dictionary', [24, 24]],
+            ['dictionary', [24, 27]],
             ['repeat',     [24, 27]],
-	        ['dictionary', [25, 25]],
-	        ['dictionary', [26, 26]],
-	        ['dictionary', [27, 27]],
+            ['dictionary', [25, 25]],
+            ['dictionary', [26, 26]],
+            ['dictionary', [27, 27]],
         ];
 
-	    $matches = $matcher->getMatches($password);
-	    foreach ($expectedMatches as $expectedMatch) {
-		    foreach ($matches as $id => $match) {
-				if ($match->pattern === $expectedMatch[0] && $match->begin === $expectedMatch[1][0] && $match->end === $expectedMatch[1][1]) {
-					unset($matches[$id]);
-				}
-		    }
+        $matches = $matcher->getMatches($password);
+        foreach ($expectedMatches as $expectedMatch) {
+            foreach ($matches as $id => $match) {
+                if ($match->pattern === $expectedMatch[0] && $match->begin === $expectedMatch[1][0] && $match->end === $expectedMatch[1][1]) {
+                    unset($matches[$id]);
+                }
+            }
         }
-	    $this->assertEmpty($matches, "matches multiple patterns");
+        $this->assertEmpty($matches, "matches multiple patterns");
     }
 
     /**
