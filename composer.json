@@ -1,5 +1,5 @@
 {
-    "name": "MiChAeLoKGB/zxcvbn-php",
+    "name": "michaelokgb/zxcvbn-php",
     "type": "library",
     "description": "Realistic password strength estimation PHP library based on Zxcvbn JS",
     "keywords": ["zxcvbn","password"],
