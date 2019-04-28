@@ -3,9 +3,9 @@ Zxcvbn-PHP is a password strength estimator using pattern matching and minimum e
 >zxcvbn attempts to give sound password advice through pattern matching and conservative entropy calculations. It finds 10k common passwords, common American names and surnames, common English words, and common patterns like dates, repeats (aaa), sequences (abcd), and QWERTY patterns.
 
 [![Build Status](https://travis-ci.org/MiChAeLoKGB/zxcvbn-php.png?branch=master)](https://travis-ci.org/MiChAeLoKGB/zxcvbn-php)
-[![Coverage Status](https://coveralls.io/repos/github/mkopinsky/zxcvbn-php/badge.svg?branch=master)](https://coveralls.io/github/mkopinsky/zxcvbn-php?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/mkopinsky/zxcvbn-php/v/stable)](https://packagist.org/packages/mkopinsky/zxcvbn-php)
-[![License](https://poser.pugx.org/mkopinsky/zxcvbn-php/license)](https://packagist.org/packages/mkopinsky/zxcvbn-php)
+[![Coverage Status](https://coveralls.io/repos/github/MiChAeLoKGB/zxcvbn-php/badge.svg?branch=master)](https://coveralls.io/github/MiChAeLoKGB/zxcvbn-php?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/MiChAeLoKGB/zxcvbn-php/v/stable)](https://packagist.org/packages/mkopinsky/zxcvbn-php)
+[![License](https://poser.pugx.org/MiChAeLoKGB/zxcvbn-php/license)](https://packagist.org/packages/MiChAeLoKGB/zxcvbn-php)
 
 ## Installation
 
@@ -14,7 +14,7 @@ The library can be installed with [Composer](http://getcomposer.org) by adding i
 ```json
 {
     "require": {
-        "mkopinsky/zxcvbn-php": "^4.4.2"
+        "michaelokgb/zxcvbn-php": "^4.5"
     }
 }
 ```
